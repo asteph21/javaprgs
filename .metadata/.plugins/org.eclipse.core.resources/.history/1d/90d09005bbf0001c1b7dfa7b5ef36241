@@ -1,0 +1,15 @@
+package Mathematics;
+
+public class Example {
+    public static void main(String[] args) {
+        String[] words = {"hello", "goodbye", "aloha", "qwerty"};
+        for (String w : words) {
+            System.out.println(transform(w));
+        }
+    }
+    
+    public static String transform(String s) {
+        String newStr = s.replace("e","a");
+        return newStr;
+    }
+}

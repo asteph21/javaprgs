@@ -1,0 +1,35 @@
+package com.revature.oops;
+
+public class SalariedEmployee {
+private int id;
+private String name;
+private int daysPresent;
+public SalariedEmployee() {
+	super();
+}
+public SalariedEmployee(int id, String name, int daysPresent) {
+	super();
+	this.id = id;
+	this.name = name;
+	this.daysPresent = daysPresent;
+}
+public int getId() {
+	return id;
+}
+public void setId(int id) {
+	this.id = id;
+}
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public int getDaysPresent() {
+	return daysPresent;
+}
+public void setDaysPresent(int daysPresent) {
+	this.daysPresent = daysPresent;
+}
+
+}

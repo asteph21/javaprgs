@@ -1,0 +1,15 @@
+package Mathematics;
+
+public class Example {
+    public static void main(String[] args) {
+        Example e = new Example();
+        int y = e.getNumber();
+        System.out.println(y);
+    }
+
+    public int getNumber() {
+        int x = 2;
+        x++;
+        return x * 10;
+    }
+}

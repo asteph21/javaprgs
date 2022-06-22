@@ -1,0 +1,13 @@
+package com.revature.mypackage;
+
+public class ArraysDemo {
+public static void main(String[] args) {
+
+	int marks[]=new int[5];
+	
+	int []arr2= {1,2,3,4,5};
+	
+	marks[0]=
+	}
+
+}

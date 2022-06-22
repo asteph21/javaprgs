@@ -1,0 +1,12 @@
+package com.revature.methods;
+
+public class MethodsDemo2 {
+	public static void main(String[] args) {
+	sum(10,12); //function call with args
+	
+}
+	public static void sum(int x,int y) {
+		int result =x+y;
+		System.out.println("Sum of " +x + " and " + y + " is " + result);
+	}
+}

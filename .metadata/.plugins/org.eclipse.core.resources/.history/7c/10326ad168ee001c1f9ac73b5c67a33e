@@ -1,0 +1,16 @@
+package com.revature.oops;
+
+public class ContractEmployee {
+private int hoursWorked;
+
+public ContractEmployee() {
+	super();
+}
+
+public ContractEmployee(int hoursWorked) {
+	super();
+	this.hoursWorked = hoursWorked;
+}
+
+
+}

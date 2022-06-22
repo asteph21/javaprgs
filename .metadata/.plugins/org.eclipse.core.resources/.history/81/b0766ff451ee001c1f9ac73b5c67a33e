@@ -1,0 +1,6 @@
+package com.revature.oops;
+
+public class SalariedEmployee extends Employee {
+	private int daysPresent;
+	
+}

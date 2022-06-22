@@ -1,0 +1,16 @@
+package com.revature.exceptions.demo;
+
+public class FirstExceptionExample {
+	public static void main(String[] args) {
+		int[] myArray=new int[5];
+		
+		myArray[2]=15;
+		try {
+		myArray[1]=25;
+		}catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println(e.getMessage());
+			e.printStackTrace();
+		}
+		System.out.println("This program is complete. .. ..");
+	}
+}

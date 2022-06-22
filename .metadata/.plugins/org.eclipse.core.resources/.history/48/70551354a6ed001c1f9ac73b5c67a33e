@@ -1,0 +1,19 @@
+package com.revature.methods;
+
+import java.util.Scanner;
+
+public class MethodsDemo2 {
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in); //function call with args
+	System.out.println("Enter num1 : ");
+	int n1=sc.nextInt();
+	System.out.println("Enter number 2 : ");
+	int n2=sc.nextInt();
+	sum(n1,n2);
+}
+	public static void sum(int x,int y) {
+		int result =x+y;
+		System.out.println("Sum of " +x + " and " + y + " is " + result);
+	}
+	
+}

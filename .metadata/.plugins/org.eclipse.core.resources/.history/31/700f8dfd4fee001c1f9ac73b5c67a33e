@@ -1,0 +1,15 @@
+package com.revature.oops;
+
+public class EmployeeManager {
+public static void main(String[] args) {
+	SalariedEmployee se=new SalariedEmployee();	
+	
+	se.setId(101);
+	se.setName("August");
+	se.setDaysPresent(22);
+	
+	System.out.print("Id : "+se.getId() +" Name : "+se.getName() +" Days Present : "+se.getDaysPresent());
+	
+}
+
+}

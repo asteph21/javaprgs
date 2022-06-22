@@ -1,0 +1,19 @@
+package com.revature.arrays;
+
+public class ArrayAssignment {
+
+
+public static void main(String[] args) {
+
+	//Create array of 11 elements and assign value
+	int []arr= {24,27,34,54,22,31,29,28,33,21,48};
+	
+	//Display array using enhanced for loop
+	for (int a:arr) {
+		System.out.println(a);
+	}
+	//Calculate and display the sum of the elements
+	for(int sum )
+	
+}
+}

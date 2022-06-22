@@ -1,0 +1,21 @@
+package Mathematics;
+
+public class Example {
+	  public String field;
+
+	   public static void main(String[] args) {
+	       Example e1 = new Example();
+	       Example e2 = new Example("hello");
+	       System.out.println(e1.field);
+	       System.out.println(e2.field);
+	   }
+
+	   public Example() {
+	       this("default");
+	       System.out.println("no-args constructor");
+	   }
+
+	   public Example(String s) {
+	       this.field = s;
+	   }
+	}

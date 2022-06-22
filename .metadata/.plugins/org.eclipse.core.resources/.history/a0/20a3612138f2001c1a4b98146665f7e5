@@ -1,0 +1,13 @@
+package com.revature.exceptions.demo;
+
+public class FirstExceptionExample {
+	public static void main(String[] args) {
+		int[] myArray=new int[5];
+		
+		myArray[2]=15;
+		
+		myArray[5]=25;
+		
+		System.out.println("This program is complete. .. ..");
+	}
+}

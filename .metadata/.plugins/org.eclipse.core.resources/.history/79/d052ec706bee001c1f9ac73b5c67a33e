@@ -1,0 +1,28 @@
+package com.revature.oops;
+
+public class SalariedEmployee extends Employee {
+	private int daysPresent;
+
+	public SalariedEmployee() {
+		super(); // call to the emp const...
+		System.out.println("salareied Employee Default Constructor....");
+	}
+
+	public SalariedEmployee(int id, String name, int daysPresent) {
+		super();
+		this.daysPresent = daysPresent;
+		System.out.println("Parameterized Constructor of SE");
+	}
+
+	public int getDaysPresent() {
+		return daysPresent;
+	}
+
+	public void setDaysPresent(int daysPresent) {
+		this.daysPresent = daysPresent;
+	}
+	public double calculateSalary(int daysPresent) {
+		return 1000.00*this.daysPresent;
+	}
+	
+}

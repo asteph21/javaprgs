@@ -1,0 +1,15 @@
+package com.revature.arrays;
+
+public class ArrayAssignment {
+
+
+public static void main(String[] args) {
+
+	int []arr= {24,27,34,54,22,31,29,28,33,21,48};
+	
+	for (int a:arr) {
+		System.out.println(a);
+	}
+	
+}
+}
